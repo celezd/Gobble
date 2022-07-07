@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+<!--------- BOOTSTRAP --------->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Gobble</title>
+    <link rel="shortcut icon" href="images/logo-title.svg">
+<!--------- FONT GOOGLE --------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!--------- FONTAWESOME --------->
+    <script src="https://kit.fontawesome.com/6c6de275b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+
+
+
+
+        <nav class="navbar navbar-expand-sm" >
+            <div class="container ">
+
+             
+                <a class="navbar-brand" href="index.html">
+                <img src="images/coi.svg" alt="" class="d-inline-block align-text-top">
+              </a>
+             
+                 
+
+
+              
+        
+                
+             
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toogle navigation">
+                  <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars fa-xl" style="color: white;"></i>
+                  </span>
+              </button>
+
+              <div class="collapse navbar-collapse " id="menu">
+
+                     <ul class="navbar-nav      me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item p-3 dropdown ">
+                            <a class="nav-link text-white-50 dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                               <h3 class="fs-5 ms-3 mt-3">Géneros</h3>
+                                <div class="container d-flex">
+
+                                    <div class="p-3">
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Acción</a></li>
+                                         <li><a class="dropdown-item" href="pages/link-categoria.html">Arcade</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Disparos en primera persona</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Disparos en tercera persona</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Hack and slash</a></li>
+                                       <li><a class="dropdown-item" href="pages/link-categoria.html">Aventura</a></li>
+                                    </div>
+
+                                    <div class="p-3">
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Puzzle</a></li>
+                                         <li><a class="dropdown-item" href="pages/link-categoria.html">De rol</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Simulación</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Estrategia</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Sandbox</a></li>
+                                       <li><a class="dropdown-item" href="pages/link-categoria.html">Militar</a></li>
+                                    </div>
+
+                                    <div class="p-3">
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Anime</a></li>
+                                         <li><a class="dropdown-item" href="pages/link-categoria.html">Terror</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Supervivencia</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Misterio</a></li>
+                                        <li><a class="dropdown-item" href="pages/link-categoria.html">Mundo abierto</a></li>
+                                       <li><a class="dropdown-item" href="pages/link-categoria.html">Ciencia ficción y ciberpunk</a></li>
+                                    </div>
+
+                                    </div>
+
+                              <li><hr class="dropdown-divider"></li>
+
+                            <div class="container d-flex">
+
+                                <div class="p-3">
+                                    <li><a class="dropdown-item" href="pages/link-categoria.html">Cooperativo</a></li>
+                                    <li><a class="dropdown-item" href="pages/link-categoria.html">Cooperativo en linea</a></li>
+                                </div>
+
+                                <div class="p-3">
+                                    <li><a class="dropdown-item" href="pages/link-categoria.html">Un jugador</a></li>
+                                    <li><a class="dropdown-item" href="pages/link-categoria.html">Multijugador</a></li>
+                                  
+                                </div>
+                                
+                                <div class="p-3">
+                                    <li><a class="dropdown-item" href="pages/link-categoria.html">Multijugador en linea</a></li>
+                                    <li><a class="dropdown-item" href="pages/link-categoria.html">LAN</a></li>
+                                    
+                                </div>
+
+                            </div>
+                              
+
+
+
+                                
+                              
+                            </ul>
+
+                        
+                        </li>
+                        <li class="nav-item p-3"><a  class="nav-link text-white-50" href="pages/explorar.html">EXPLORAR</a></li>
+                        <li class="nav-item p-3"><a  class="nav-link text-white-50" href="pages/soporte.html">SOPORTE</a></li>
+                    </ul>
+                    
+                    <div class="d-flex align-items-center">
+                    <ul class="navbar-nav      me-auto mb-2 mb-lg-0">
+                        <li class="nav-item p-3">  <a href="pages/login.html"><div class="login">Iniciar sesión</div></a></li>
+                        <li class="nav-item p-3"><a  class="nav-link text-white-50" href="pages/carrito.html">Carrito</a></li>
+                        <li class="nav-item p-3"><a  class="nav-link" href="pages/perfil.html">
+                            <i class="fa-solid fa-user" style="color: white;" ></i>
+                        </a></li>
+        
+                     </ul></div>
+              </div>
+         
+
+            </div>
+            
+          </nav>
+    </header>
+
+
+
+
+
+
+
+      <main>
+
+<div class="backg-imag">
+
+
+        <div class="container gobble d-flex justify-content-center">
+            <img src="images/gobble.svg" alt="">
+
+            
+        </div>
+
+     
+
+
+
+
+
+
+
+
+
+
+        
+        <div id="carouselExampleCaptions" class="carousel slide mx-auto " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="pages/games/ghostbusters.html">
+                <img src="images/ghost.jpg" class="d-block w-100 "  alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Ghostbusters: Spirits Unleashed</h5>
+                  <p>¡Caza o asusta! La elección es tuya en el próximo juego asimétrico de Ghostbusters de IllFonic, Ghostbusters: Spirits Unleashed. Juega con hasta cuatro o amigos o en solitario en varias plataformas.</p>
+                </div>
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="pages/games/saintsrow.html">
+                <img src="images/saints.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Saints Row Gold Edition</h5>
+                  <p>En un mundo plagado de delincuencia, en el que facciones sin ley luchan por el poder, un grupo de jóvenes emprende su propio negocio delictivo, en su camino a la cima de su propio éxito. La Gold Edition incluye el juego base y el Expansion Pass.</p>
+                </div>
+            </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="pages/games/hogwarts.html">
+                <img src="images/hog.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hogwarts Legacy</h5>
+                  <p>Disfruta de Hogwarts en el siglo XIX. Tu personaje es un estudiante que tiene la clave de un antiguo secreto que amenaza la estabilidad del mundo mágico. Consigue aliados, enfréntate a magos tenebrosos y decide el destino del mundo mágico.</p>
+                </div>
+            </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+</div>
+
+<!---------------------- SECCIONES DE PRODUCTOS ----------------------->
+
+
+          <section class="categoria container categoria-black">
+
+            <div class="text-productos">
+                <h1>Ofertas destacadas</h1>
+                <a href="pages/explorar.html"><div class="boton-div boton-prod">Ver más</div></a>
+            </div>
+            
+
+            <div class="productos">
+
+                <div class="prod">
+                    <a href="pages/games/ghostrecon.html">
+                    <img src="images/productos/GRT_STD_Edition_Store_Portrait_1200x1600_1200x1600-b08ee70d85ee2649b6e9c575d9192e66.webp" alt="">
+                    <h2 style="padding-bottom: 10px;">Ghost Recon Breakpoint</h2>
+                    <div class="descuento d-flex flex-ro justify-content-between">
+                         <p class="text-decoration-line-through" style="margin:0; padding: 0; ">30,55 US$</p> <span class="badge bg-success fs-6">-70%</span>
+                    </div>
+                   
+                    <p>9,16 US$</p>
+                   
+                    </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/killing.html">
+                    <img src="images/productos/3f92fc65-f337-49e9-b5f8-8225ab5dc38f_1200x1600-cc435d1b298b51615ca8dc916d391b68.jpg" alt="">
+                    <h2>Killing Floor 2</h2>
+                    <div class="descuento d-flex flex-ro justify-content-between">
+                        <p class="text-decoration-line-through" style="margin:0; padding: 0; ">31,59 US$</p> <span class="badge bg-success fs-6">-85%</span>
+                   </div>
+                  
+                   <p>4,74 US$</p>
+                  
+                    
+                    </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/rims.html">
+                    <img src="images/productos/EGS_RiMSRacing_RacewardStudio_S2_1200x1600-249d07ee346663646e18e978c50df616.jpg" alt="">
+                    <h2>RiMS Racing</h2>
+                    <div class="descuento d-flex flex-ro justify-content-between">
+                        <p class="text-decoration-line-through" style="margin:0; padding: 0; ">34,99 US$</p> <span class="badge bg-success fs-6">-60%</span>
+                   </div>
+                  
+                   <p>14 US$</p>
+                     </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/vampire.html">
+                    <img src="images/productos/EGS_VampireTheMasqueradeSwansong_BigBadWolf_S2_1200x1600-4b9fbee303df3621dcd280e9591bc2b9.webp" alt="">
+                    <h2>Vampire: The Masquerade</h2>
+                    <div class="descuento d-flex flex-ro justify-content-between">
+                        <p class="text-decoration-line-through" style="margin:0; padding: 0; ">34,99 US$</p> <span class="badge bg-success fs-6">-45%</span>
+                   </div>
+                  
+                   <p>19,24 US$</p>
+                     </a>
+                </div>
+
+
+                <div class="prod prod-6">
+                    <a href="pages/games/hunter.html">
+                    <img src="images/productos/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2.webp" alt="">
+                    <h2>theHunter: Call of the Wild™</h2>
+                    <div class="descuento d-flex flex-ro justify-content-between">
+                        <p class="text-decoration-line-through" style="margin:0; padding: 0; ">5,99 US$</p> <span class="badge bg-success fs-6">-25%</span>
+                   </div>
+                  
+                   <p>4,49 US$</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+<!-- -------------------------OTRA SECCION ------------------------ -->
+
+
+<div class="container texto-central d-flex justify-content-center">
+    <img src="images/publi.svg" alt="">
+
+    
+</div>
+
+    
+    <form class="d-flex col-md-3 mx-auto search ">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button  type="submit">    <i class="btn-search fa-solid fa-magnifying-glass fa-xl" ></i></button>
+      </form> 
+      <br><br>
+
+
+<div class="container botones-categorias d-flex flex-column align-items-center">
+   
+        <div class="d-flex">
+            <a href="pages/link-categoria.html"><div class="boton-div">Acción</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Arcade</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Terror</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Aventura</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Simulación</div></a>
+        </div>
+
+        <div class="d-flex">
+            <a href="pages/link-categoria.html"><div class="boton-div">Sandbox</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Militar</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Estrategia</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">De disparos</div></a>
+            <a href="pages/link-categoria.html"><div class="boton-div">Puzzle</div></a>
+        </div>
+        
+        
+    
+         
+       
+     
+</div>
+
+
+
+<!-- -------------------------OTRA SECCION ------------------------ -->
+
+        
+        <section class="categoria container categoria-black">
+
+            <div class="text-productos">
+                <h1>Populares</h1>
+                <a href="pages/explorar.html"><div class="boton-div boton-prod">Ver más</div></a>
+            </div>
+            
+
+            <div class="productos">
+
+                <div class="prod">
+                    <a href="pages/games/ghostrecon.html">
+                    <img src="images/productos/GRT_STD_Edition_Store_Portrait_1200x1600_1200x1600-b08ee70d85ee2649b6e9c575d9192e66.webp" alt="">
+                    <h2>Ghost Recon Breakpoint</h2>
+                    <p>30,55 US$</p>
+                   </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/killing.html">
+                    <img src="images/productos/3f92fc65-f337-49e9-b5f8-8225ab5dc38f_1200x1600-cc435d1b298b51615ca8dc916d391b68.jpg" alt="">
+                    <h2>Killing Floor 2</h2>
+                    <p>31,59 US$</p>
+                   </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/rims.html">
+                    <img src="images/productos/EGS_RiMSRacing_RacewardStudio_S2_1200x1600-249d07ee346663646e18e978c50df616.jpg" alt="">
+                    <h2>RiMS Racing</h2>
+                    <p>34,99 US$</p>
+                    </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/vampire.html">
+                    <img src="images/productos/EGS_VampireTheMasqueradeSwansong_BigBadWolf_S2_1200x1600-4b9fbee303df3621dcd280e9591bc2b9.webp" alt="">
+                    <h2>Vampire: The Masquerade</h2>
+                    <p>34,99 US$</p>
+                     </a>
+                </div>
+
+
+              
+                <div class="prod prod-6">
+                    <a href="pages/games/hunter.html">
+                    <img src="images/productos/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2.webp" alt="">
+                    <h2>theHunter: Call of the Wild™</h2>
+                    <p>3,99 US$</p>
+                     </a>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- -------------------------OTRA SECCION ------------------------ -->
+
+        
+        <section class="categoria container">
+
+            <div class="text-productos">
+                <h1>Lo más vendido</h1>
+                <a href="pages/explorar.html"><div class="boton-div boton-prod">Ver más</div></a>
+            </div>
+            
+
+            <div class="productos">
+
+                <div class="prod">
+                    <a href="pages/games/ghostrecon.html">
+                    <img src="images/productos/GRT_STD_Edition_Store_Portrait_1200x1600_1200x1600-b08ee70d85ee2649b6e9c575d9192e66.webp" alt="">
+                    <h2>Ghost Recon Breakpoint</h2>
+                    <p>30,55 US$</p>
+                   </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/killing.html">
+                    <img src="images/productos/3f92fc65-f337-49e9-b5f8-8225ab5dc38f_1200x1600-cc435d1b298b51615ca8dc916d391b68.jpg" alt="">
+                    <h2>Killing Floor 2</h2>
+                    <p>31,59 US$</p>
+                   </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/rims.html">
+                    <img src="images/productos/EGS_RiMSRacing_RacewardStudio_S2_1200x1600-249d07ee346663646e18e978c50df616.jpg" alt="">
+                    <h2>RiMS Racing</h2>
+                    <p>34,99 US$</p>
+                    </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/vampire.html">
+                    <img src="images/productos/EGS_VampireTheMasqueradeSwansong_BigBadWolf_S2_1200x1600-4b9fbee303df3621dcd280e9591bc2b9.webp" alt="">
+                    <h2>Vampire: The Masquerade</h2>
+                    <p>34,99 US$</p>
+                     </a>
+                </div>
+
+
+              
+                <div class="prod prod-6">
+                    <a href="pages/games/hunter.html">
+                    <img src="images/productos/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2.webp" alt="">
+                    <h2>theHunter: Call of the Wild™</h2>
+                    <p>3,99 US$</p>
+                     </a>
+                </div>
+
+                <div class="prod">
+                    <a href="pages/games/ghostrecon.html">
+                    <img src="images/productos/GRT_STD_Edition_Store_Portrait_1200x1600_1200x1600-b08ee70d85ee2649b6e9c575d9192e66.webp" alt="">
+                    <h2>Ghost Recon Breakpoint</h2>
+                    <p>30,55 US$</p>
+                   </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/killing.html">
+                    <img src="images/productos/3f92fc65-f337-49e9-b5f8-8225ab5dc38f_1200x1600-cc435d1b298b51615ca8dc916d391b68.jpg" alt="">
+                    <h2>Killing Floor 2</h2>
+                    <p>31,59 US$</p>
+                   </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/rims.html">
+                    <img src="images/productos/EGS_RiMSRacing_RacewardStudio_S2_1200x1600-249d07ee346663646e18e978c50df616.jpg" alt="">
+                    <h2>RiMS Racing</h2>
+                    <p>34,99 US$</p>
+                    </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/vampire.html">
+                    <img src="images/productos/EGS_VampireTheMasqueradeSwansong_BigBadWolf_S2_1200x1600-4b9fbee303df3621dcd280e9591bc2b9.webp" alt="">
+                    <h2>Vampire: The Masquerade</h2>
+                    <p>34,99 US$</p>
+                     </a>
+                </div>
+
+
+              
+                <div class="prod prod-6">
+                    <a href="pages/games/hunter.html">
+                    <img src="images/productos/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2.webp" alt="">
+                    <h2>theHunter: Call of the Wild™</h2>
+                    <p>3,99 US$</p>
+                     </a>
+                </div>
+
+
+                <div class="prod">
+                    <a href="pages/games/vampire.html">
+                    <img src="images/productos/EGS_VampireTheMasqueradeSwansong_BigBadWolf_S2_1200x1600-4b9fbee303df3621dcd280e9591bc2b9.webp" alt="">
+                    <h2>Vampire: The Masquerade</h2>
+                    <p>34,99 US$</p>
+                     </a>
+                </div>
+
+
+              
+                <div class="prod prod-6">
+                    <a href="pages/games/hunter.html">
+                    <img src="images/productos/EGS_theHunterCalloftheWild_ExpansiveWorlds_S2_1200x1600-1e9b46aaabc33fe0a08cf5b418e76ba2.webp" alt="">
+                    <h2>theHunter: Call of the Wild™</h2>
+                    <p>3,99 US$</p>
+                     </a>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+
+
+
+<br><br><br>
+
+
+
+
+      </main>
+
+<!-- -------------- FOOTER ---------------- -->
+
+      <footer>
+
+        <div class="container">
+
+            <ul class="redes">
+                <li><a href=""><i class="fa-brands fa-instagram-square fa-2xl"></i></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter-square fa-2xl"></i></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+             
+            </ul>
+           
+        </div>
+
+
+
+
+
+        <div class="container">
+
+            <ul class="links-footer">
+                <li><a href="">Términos de servicio</a></li>
+                <li><a href="">Política de privacidad</a></li>
+                <li><a href="">Política de reembolso de la tienda</a></li>
+                <li><a href="">Soporte</a></li>
+                <li><a href="">Acerca de Gobble</a></li>
+                <li><a href="">Trabaja con nosotros</a></li>
+            </ul>
+            <p>&copy; 2022 Gobble. Todos los derechos reservados. <br>
+                Todos los precios incluyen IVA (donde sea aplicable). </p>
+               
+                <p class="dev">Desarrollado por <span style="color: rgb(184, 129, 223); font-weight:600;">Celeste Dominguez</span>
+                <a href="https://github.com/celezd/CaC-proyecto-final-Gobble" target="_blank"><i class="fa-brands fa-github-square fa-xl"></i></a>
+                <a href="https://www.linkedin.com/in/celeste-dominguez/" target="_blank"> <i class="fa-brands fa-linkedin fa-xl"></i></a>
+                </p>
+        </div>
+      </footer>
+
+
+
+
+
+
+<!--------- BOOTSTRAP JS --------->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
