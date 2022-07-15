@@ -1,0 +1,119 @@
+.aside-game {
+ 
+    width: 550px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+    margin: 20px;
+}
+
+.aside-game img {
+    width: 280px;
+    height: auto;
+}
+.container-game {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color:  #181b1ed9 ;
+    margin: 40px 0;
+    color: white;
+}
+
+
+
+.boton-div-game {
+    width: 280px;
+    height: 35px;
+    background-color: rgb(45, 45, 45);
+   margin:15px;
+   color: rgb(213, 211, 211);
+    font-weight: 600;
+    padding: 4px 0;
+    text-align: center;
+    transition: all .4s;
+    border-radius: 8px;
+    
+}
+
+.text-aside a {
+    color: white;
+    text-decoration: underline !important;
+}
+.precio-game {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 85px;
+}
+
+.boton-prod-game {
+    background: transparent !important;
+    border: 1px solid white;
+   
+}
+.boton-prod-game:hover {
+    background-color: white !important;
+    color: #181b1e;
+}
+
+.aside-game a {
+    text-decoration: none;
+}
+.aside-game span {
+    padding-left: 15px;
+}
+
+.text-aside {
+    margin: 15px;
+    width: 320px;
+}
+
+.game-principal {
+    margin: 20px;
+}
+
+.game-principal h3 {
+    font-size: 18px;
+}
+.game-principal h4 {
+    font-size: 16px;
+}
+.titulo-juego h2 {
+    padding: 10px;
+    font-size: 3rem;
+}
+
+.p1-gameinfo {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.game-info {
+    width: 85%;
+    height: auto;
+}
+
+.comprar-game {
+    background-color: rgb(216, 41, 41) !important;
+    color: white !important;
+    border: none !important;
+}
+.comprar-game:hover {
+    background-color: rgb(233, 80, 80) !important;;
+  
+}
+.requisitos {
+    display: flex;
+   
+}
+.requisitos-recomendado {
+    margin-left: 15px;
+}
+.carousel {
+    width: 770px;
+}
+
+.requisitos ul {
+    list-style-type: none;
+    padding-left: 0;
+}

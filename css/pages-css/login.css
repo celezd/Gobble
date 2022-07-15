@@ -1,0 +1,64 @@
+ 
+
+.login-container {
+    width: 85%;
+    height: 800px;
+    background-color:  #181b1eb0 ;
+    margin: 80px;
+    display: flex;
+    justify-content:center;
+    color: white;
+    
+    
+}
+
+.input-style {
+    width: 260px;
+}
+
+.btn-login {
+    background-color: rgb(36, 96, 146);
+    color: white;
+    font-weight: 600;
+    transition: all .3s;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 33px;
+}
+.btn-login:hover{
+    background-color: rgb(60, 120, 170);
+    transition: all .3s;
+}
+.login-sec {
+    border-right: 1px solid white;
+     padding-right: 80px ;
+     
+    width: 40%;
+    padding-top: 40px;
+}
+
+.login-container a {
+    text-decoration: none;
+}
+.login-container h2 {
+    padding: 10px 0;
+}
+.login-container label {
+    margin: 10px 10px 10px 0;
+}
+.registrar {
+    width: 40%;
+     
+    padding-left: 80px ;
+    padding-top: 40px;
+}
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.396)) , url(../../images/backg-login.jpg);
+    /* background-image: url(../../images/backg-login.jpg); */
+    background-repeat: no-repeat;
+    /* filter: brightness(0.8); */
+    background-size: cover;
+    display: flex;
+     
+}
