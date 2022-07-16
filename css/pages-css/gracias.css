@@ -1,0 +1,37 @@
+.gracias img {
+    width: 70%;
+}
+
+.gracias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.gracias p {
+    font-size: 34px;
+    color: rgb(28, 28, 28);
+}
+.gracias a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 180px;
+     
+    background-color: rgb(51, 103, 182);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    transition: all .3s;
+    font-weight: 600;
+    text-align: center;
+}
+
+.gracias a:hover {
+    background-color: rgb(80, 134, 214);
+    color: white;
+    
+    transition: all .3s;
+}

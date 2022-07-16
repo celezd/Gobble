@@ -1,0 +1,79 @@
+ 
+
+.titulo-pago h2 {
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+    font-weight: 300;
+}
+
+.titulo-pago {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+.login-container {
+    width: 70% !important;
+    height: auto;
+    background-color:  #181b1eb0 ;
+    margin: 80px;
+    margin-top: 0 !important;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content:center;
+    color: white;
+    
+    
+}
+
+.input-style {
+    width: 260px;
+}
+
+.input-cvv {
+    width: 55px !important;
+}
+.btn-login {
+    background-color: rgb(73, 162, 56);
+    color: white;
+    font-weight: 600;
+    transition: all .3s;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 33px;
+    margin-left: 20px;
+}
+.btn-login:hover{
+    background-color: rgb(115, 206, 97);
+    transition: all .3s;
+}
+.login-sec {
+    border-right: 1px solid white;
+     padding-right: 80px ;
+     
+    width: 40%;
+    padding-top: 40px;
+}
+
+.login-container a {
+    text-decoration: none;
+}
+.login-container h2 {
+    padding: 10px 0;
+}
+.login-container label {
+    margin: 10px 10px 10px 0;
+}
+.registrar {
+    width: 40%;
+     
+    
+    padding-top: 40px;
+}
+
+fieldset {
+    width: 525px;
+}
+ 

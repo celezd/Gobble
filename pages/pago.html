@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=ç, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/pages-css/perfil.css">
+    <link rel="stylesheet" href="../css/pages-css/pago.css">
 <!--------- BOOTSTRAP --------->
     <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <title>Gobble</title>
+    <title>Mi carrito | Gobble</title>
     <link rel="shortcut icon" href="../images/logo-title.svg">
 <!--------- FONT GOOGLE --------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -142,70 +142,145 @@
     </header>
 
 
+
 <!-- ----------------- MAIN  ---------------------- -->
 
-<main>
 
-    <div class="container perfil-container">
+<!--      
+        
+    
+         -->
 
-        <section class="info-cuenta box-perfil">
-            <h2>INFORMACIÓN DE LA CUENTA</h2>
-            <a href="">Editar</a>
-            <a href="">Cambiar contraseña</a>
-            <hr>
-            <div>
-                <ul>
-                    <li>Usuario: <span></span></li>
-                    <li>Dirección de correo electrónico: <span></span></li>
-                    
-                </ul>
-            </div>
-        </section>
+  <main class="container">    
+
+    <div class="titulo-pago">
+         <h2>Método de pago</h2>
+    <hr>
+    </div>
+ 
+<div class="container login-container">
+
+    
+    <section class="registrar">
          
-        <section class="info-personal box-perfil">
-            <h2>DATOS PERSONALES</h2>
-            <a href="">Editar</a>
-            <hr>
-            <div>
-                <ul>
-                    <li>Nombre: <span></span></li>
-                    <li>Apellido: <span></span></li>
-                    <li>País: <span></span></li>
-                    <li>Localidad: <span></span></li>
-                    <li>Dirección: <span></span></li>
-                    <li>Código postal: <span></span></li>
-                    <li>Número de celular: <span></span></li>
+    
+         <form action="gracias.html" method="get"  > <!--CAMBIAR A POST -->
+            <fieldset>
+               <legend>Método de pago</legend>
+            <label>Selecciona un método de pago <br>
+                <select name="tarjetas" id="" required>
+                    <option value="" selected>Seleccionar...</option>
+                    <option value="visa">Visa</option>
+                    <option value="master">Mastercard</option>
+                    <option value="american">American Express</option>
+                </select>
+            </label>
+                </select>
+                <br>
+                     <label>Número de tarjeta <br>
+                    <input type="number"   required>
+                    </label>
 
-                </ul>
-            </div>
-        </section>
+                <label>Fecha de caducidad <br>
+                    <select name="caducidad-mes" id="" required>
+                        <option value="" selected>--</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        
+                    </select>
 
-        <section class="info-pago box-perfil">
-            <h2>PAGOS</h2>
-            <a href="">Editar</a>
-            <hr>
-            <div>
-                <ul>
-                    <li>Método de pago: <span></span></li>
-                    <li>Número de tarjeta: <span></span></li>
-                    <li>Fecha de caducidad: <span></span></li>
-                    <li>Código de seguridad: <span></span></li>
-                    
-                </ul>
-            </div>
-        </section>
+                    <select name="caducidad-año" id="" required>
+                        <option value="" selected>----</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        
+                    </select>
+                </label>
+                    <label>Código de seguridad <br>
+                        <input type="number"  class="input-cvv" required>
+                    </label>
+                 </fieldset>
+               
+
+                 <fieldset>
+                    <legend>Información de facturación</legend>
+                 
+             
+             
+            <label>Nombre <br>
+                <input  class="input-style"type="text" placeholder=" Nombre" style="width:170px !important;" required>
+            </label> 
+            <label>Apellido <br>
+                <input  class="input-style"type="text" placeholder=" Apellido" style="width:170px !important;" required>
+            </label> 
+            <br>
         
-        </div>
+            <label>País <br>
+                <select name="pais" id="" required>
+                    <option value="argentina" selected>Argentina</option>
+                    <option value="uruguay" >Uruguay</option>
+                    <option value="chile" >Chile</option>
+                    <option value="paraguay" >Paraguay</option>
+                    <option value="brasil" >Brasil</option>
+                    <option value="otro" >Otro...</option>
+                </select>
+            </label>
+            <label>Dirección 
+                <br>
+                <input  class="input-style"type="text" placeholder=" Dirección" required>
+            </label> <br>
+            <label>Localidad 
+                <br>
+                <input  class="input-style"type="text" placeholder=" Localidad" required>
+            </label> <br>
+            <label>Código postal <br>
+                <input type="number"  class="input-cvv" required>
+            </label>
+            <label>Número de celular <br>
+                <input type="number" required  >
+                </label>
+             
+            <br>
+           
+            </fieldset>
+            <label>  
+                <input type="checkbox"  value="registro">
+                Guardar mi información de pago para facilitar el proceso de pago la próxima vez<br>
+            </label>
+            <input   class="btn-login" type="submit" value="Finalizar compra" >
         
         
+         </form>
         
-
-
-
-
-
-
-
+    </section>
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+       
 
 
 
@@ -291,7 +366,7 @@
 
 <!--------- BOOTSTRAP JS --------->
 <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="../js/pago.js"></script>
 </body>
 </html>
-
 
