@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/pages-css/login.css">
@@ -151,26 +151,30 @@
 <section class="login-sec">
  <h2>INICIAR SESIÓN</h2>
 
- <form action="codigo.php" method="POST">
+ <form id="form_login" action="#" > <!--method="POST"-->   
     <label>Usuario <br>
-        <input  class="input-style" type="text" placeholder=" Usuario de Gobble" required>
+        <input  id="user_login" class="input-style" type="text" placeholder=" Usuario de Gobble" required>
     </label> 
+    <p id="alertUser" class="text-danger mb-2 d-none"></p>
     <br>
 
     <label>Contraseña <br>
-        <input  class="input-style" type="password" placeholder=" Contraseña" required>
+        <input  id="pass_login" class="input-style" type="password" placeholder=" Contraseña" required>
     </label>
+    <p id="alertPass" class="text-danger mb-2 d-none"></p>
     <br>
     <label>  
-        <input type="checkbox"  value="Recordar contraseña">
+        <input type="checkbox" id="check_login" value="Recordar contraseña">
         ¿Desea recordar la contraseña?
     </label> <br>
-    <input class="btn-login" type="submit" value="Iniciar sesión">
+    <input   class="btn-login" type="submit" value="Iniciar sesión">
 
 
  </form>
 <br>
  <a href="">¿Has olvidado la contraseña?</a>
+
+ <div class="alert alert-success mt-2 d-none" id="alertSuccess" style="width: 190px;"></div>
 </section>
 
 
@@ -178,40 +182,40 @@
 <section class="registrar">
     <h2>REGISTRARSE</h2>
 
-    <form action="codigo.php" method="POST" >
+    <form id="form_register" action="#"  > <!-- method="POST" -->
         <label>Dirección de correo electrónico <br>
-            <input class="input-style" type="email" placeholder=" Correo electrónico" required>
+            <input id="email" class="input-style" type="email" placeholder=" Correo electrónico" required>
         </label> 
         <br>
 
         <label>Nombre <br>
-            <input  class="input-style"type="text" placeholder=" Nombre" required>
+            <input  id="user_nombre" class="input-style"type="text" placeholder=" Nombre" required>
         </label> 
         <label>Apellido <br>
-            <input  class="input-style"type="text" placeholder=" Apellido" required>
+            <input  id="user_apellido" class="input-style"type="text" placeholder=" Apellido" required>
         </label> 
         <br>
     
         <label>Nombre de usuario <br>
-            <input  class="input-style"type="text" placeholder=" Usuario" required>
+            <input id="user_registro" class="input-style"type="text" placeholder=" Usuario" required>
         </label> <br>
         <label>Contraseña: <br>
-            <input  class="input-style"type="password" placeholder=" Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener al menos una mayúscula, una minúscula, un número y minimo 8 caracteres" required>
+            <input  id="pass_registro" class="input-style"type="password" placeholder=" Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener al menos una mayúscula, una minúscula, un número y minimo 8 caracteres" required>
         </label>
         <br>
         <label>Confirmar contraseña: <br>
-            <input  class="input-style"type="password" placeholder=" Confirma tu contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener al menos una mayúscula, una minúscula, un número y minimo 8 caracteres"  required>
+            <input  id="pass2_registro" class="input-style"type="password" placeholder=" Confirma tu contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener al menos una mayúscula, una minúscula, un número y minimo 8 caracteres"  required>
         </label>
         <br>
         <label>  
-            <input type="checkbox"  value="registro" required>
+            <input id="check_registro"  type="checkbox"  value="registro" required>
             Tengo 13 años o más y acepto los términos del <a href="" target="_blank">Acuerdo de Suscriptor a Gobble</a> y la <a href="" target="_blank">Política de Privacidad</a>.
         </label> <br>
-        <input  class="btn-login" type="submit" value="Continuar">
+        <input onclick="registerSubmit()" class="btn-login" type="submit" value="Continuar">
     
     
      </form>
-    
+     <div id="alertSuccess_registro"></div>
 </section>
 
 
@@ -310,6 +314,7 @@
 
 <!--------- BOOTSTRAP JS --------->
 <script src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="../js/login.js"></script>
 </body>
 </html>
 
